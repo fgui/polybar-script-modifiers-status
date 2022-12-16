@@ -1,0 +1,10 @@
+#+title: Polybar Script: Show Status Modifiers
+
+#+begin_src
+
+  [module/mod-status]
+   type = custom/script
+   exec = ~/scripts/modifiers-status.sh
+   tail = true
+
+#+end_src
